@@ -3,10 +3,11 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    opacity: 0;
     transition: opacity 200ms ease-in-out;
 }
 
-.ReactModalPortal .ReactModal_Overlay--after-open {
+.ReactModalPortal .ReactModal__Overlay--after-open {
     opacity: 1;
 }
 
